@@ -1,0 +1,26 @@
+/* Load the custom font */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('assets/fonts/custom-font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the custom font to the body and specific elements */
+body {
+    font-family: 'CustomFont', sans-serif;
+}
+
+/* Optionally, apply the custom font to headers, buttons, and other elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'CustomFont', serif;
+}
+
+button {
+    font-family: 'CustomFont', sans-serif;
+}
+
+#search-bar {
+    font-family: 'CustomFont', sans-serif;
+    font-size: 16px;
+}
